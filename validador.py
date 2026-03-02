@@ -6,7 +6,7 @@ cpf_nove_digitos = cpf[:9]
 
 contagem_10 = 10
 
-resultado = ''
+resultado = 0
 
 for digito_1 in cpf_nove_digitos:
     resultado += int(digito_1 ) * contagem_10 
