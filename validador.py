@@ -9,7 +9,8 @@ contagem_10 = 10
 resultado = ''
 
 for digito_1 in cpf_nove_digitos:
-    digito_1 * 10 -= contagem_10 += resultado 
+    digito_1 * 10 -= contagem_10
+    digito_1 += resultado 
 
     digito_1 = (resultado * 10) % 11
     digito_1 = digito_1  if <9 else 0
